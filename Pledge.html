@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Bedside Wound Care - Ihn Podiatry</title>
+    <link rel="stylesheet" href="Pledge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Pledge.html"><img src="images/BWC SM Badge Logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="Pledge.html">PLEDGE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Our Pledge</h1>
+    </div>
+        
+    </section>
+    
+    <!------ Pledge ------->
+    
+    <section class="Pledge">
+        <h1>Our Pledge</h1>
+        
+        <div class="row">
+            <div class="Pledge-col">
+                <h3>Our Approach</h3>
+                <p>Bedside Wound Care takes the "driver seat" approach to podiatry and wound care.</p>
+            </div>
+            <div class="Pledge-col">
+                <h3>What we Bring to the Table</h3>
+                <p>Our providers will deliver the highest quality and most compassionate podiatric wound care directly to your patients.</p>
+            </div>
+            <div class="Pledge-col">
+                <h3>Our Mission</h3>
+                <p>Healing wounds in a timely manner is our top priority and limb salvage is our goal!</p>
+            </div>
+        </div>
+        
+
+    </section>
+    
+   <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+    }
+            
+    </script>
+    
+    </body>
+</html>

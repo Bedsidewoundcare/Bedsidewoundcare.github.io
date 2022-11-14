@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Bedside Wound Care - Ihn Podiatry</title>
+    <link rel="stylesheet" href="Services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Services.html"><img src="images/BWC SM Badge Logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="Pledge.html">PLEDGE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Limb Salvage</h1>
+        <p>Patients' detrimental health and/or transportation issues are the two main factors<br>identified affecting wound care treatment compliance and success.</p>
+        <a href="Contact.html" class="hero-btn">Contact Us To Schedule an Appointment Today</a>
+    </div>
+        
+    </section>
+    
+    <!------ Pledge ------->
+    
+    <section class="Services">
+        <h1>Services We Offer</h1>
+        <div class="row">
+            <div class="Services-col">
+                <h3>Foot and Ankle Care</h3>
+                <p>Bedside Evaluations<br>Fall-Risk assessments<br>Vascular and venous screenings<br>Remote monitoring and Telehealth<br>Diabetic foot care<br>Routine at-risk foot care<br>Non-surgical treatment<br>Minor surgical procedures<br>Diabetic shoes<br>Durable Medical Equipment services
+</p>
+            </div>
+            <div class="Services-col">
+                <h3>Wound Care</h3>
+                <p>Comprehensive evaluation<br>Standard of care treatment plan<br>Provider-driven compliance<br>Case management focused care<br>Wound care education for staff<br>Consistency of care approach
+</p>
+            </div>
+        </div>
+        
+
+    </section>
+
+   <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+    }
+            
+    </script>
